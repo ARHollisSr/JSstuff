@@ -23,6 +23,8 @@ function validate(arr1, arr2) {
         if(!(key ** 2  in frequencyCounter2)) {
             return false;
         }
+        //if the value of the key for frequencyCounter2 is not equal to the value of the key for frequencyCounter1
+        //Example if there are two 4's (2 squared) in freq2 there needs to two 2's that match in freqOne
         if(frequencyCounter2[key ** 2] !== frequencyCounter1[key]) {
             return false;
         }
