@@ -9,6 +9,15 @@ function findLongestWordLength(str) {
     }
 
     return longestWord;
+
+    /* Note:
+    Alternative solution
+
+    return str.split(' ').reduce((x,y)=> {
+        return Math.max(x, y.length)
+    },0); // 0 is used to give an initial value to x so Math.max knows where to begin
+
+    */
 }
 
 console.log(findLongestWordLength("The quick brown fox jumped over the lazy dog"));
