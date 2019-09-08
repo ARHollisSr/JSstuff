@@ -9,7 +9,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}\\_DS_Algo\\anagram.js"
+            "program": "${workspaceFolder}\\_DS_Algo\\FactorializeANumber.js"
         }
     ]
 }
