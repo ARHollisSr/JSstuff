@@ -9,6 +9,13 @@ function bouncer(arr) {
         }
     }
     return arr.filter((a) => { return a != "" }); //filter any dangling commas representing empty array elements
+
+    /*Note :
+
+    Advance solution
+
+    return arr.filter(Boolean);
+    */
 }
 
 console.log(bouncer([7, "ate", "", false, 9]));
