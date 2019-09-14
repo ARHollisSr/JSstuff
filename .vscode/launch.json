@@ -9,7 +9,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}\\_DS_Algo\\FindersKeepers.js"
+            "program": "${workspaceFolder}\\FCC\\IIFEToCreateModule.js"
         }
     ]
 }
