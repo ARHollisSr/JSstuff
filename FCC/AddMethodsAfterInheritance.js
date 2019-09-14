@@ -7,7 +7,7 @@ Animal.prototype.eat = function () { console.log("nom nom nom"); };
 
 function Dog() { }
 
-Dog.prototype = Object.create(Animal.prototype); // inherit from supertype
+Dog.prototype = Object.create(Animal.prototype); // inherit from supertype via the cloning of it's prototype object
 Dog.prototype.constructor = Dog;    // reset the constructor of the Dog object
 Dog.prototype.bark = () => console.log("Woof!"); // add a method to Dog after inheritance
 
