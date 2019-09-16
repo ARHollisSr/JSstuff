@@ -9,7 +9,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}\\FCC\\IIFEToCreateModule.js"
+            "program": "${workspaceFolder}\\FCC\\temp.js"
         }
     ]
 }
