@@ -9,7 +9,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}\\FCC\\temp.js"
+            "program": "${workspaceFolder}\\FCC\\ImplementMapFunction.js"
         }
     ]
 }
