@@ -1,4 +1,4 @@
-// the global Array
+
 var s = [23, 65, 98, 5];
 
 Array.prototype.myFilter = function (callback) {
@@ -13,7 +13,7 @@ Array.prototype.myFilter = function (callback) {
         if (callback(this[index], index, this))
             newArray.push(this[index]);
     }
-    // Add your code above this line
+    
     return newArray;
 
 };
