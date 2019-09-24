@@ -9,7 +9,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}\\FCC\\IntermediateAlgo\\DiffTwoArrays.js"
+            "program": "${workspaceFolder}\\fcc\\IntermediateAlgo\\DiffTwoArrays.js"
         }
     ]
 }
